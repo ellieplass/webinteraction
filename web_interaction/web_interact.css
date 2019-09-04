@@ -1,0 +1,88 @@
+@font-face{
+font-family: main;
+src: url(LeagueSpartan-Bold.otf);  
+}
+
+
+html{
+    background: #ffffff;
+    
+}
+
+.content{
+    background: #ffffff;
+    text-align: left;
+    
+
+}
+
+h2, h3{
+size: 20pt;
+color: #000000;
+    padding: 0px 24px;  
+    margin-left: 10.5%;
+font-family: main;
+}
+
+
+
+p{
+    
+size: 15pt;
+color: #000000;
+text-align: justify;
+margin-left:32%;
+margin-right: 32%;
+    margin-top: 10%;
+}
+
+.p2{
+margin-top: 0;
+}
+ul{
+    
+size: 15pt;
+color: #000000;
+list-style: none;
+}
+
+
+li{
+    float: center;
+      display: inline;
+    text-align: center;
+ padding: 20px 24px;  
+    text-decoration: none; 
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: main;
+    font-size: 20pt;
+}
+
+.exercises{
+    float: center;
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+    font-family: main;
+    font-size: 50pt;
+    
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: line-through;
+        text-decoration-color: aqua;
+
+    
+}
+
+a:active{
+   color: aqua; 
+}
+
