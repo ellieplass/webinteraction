@@ -7,6 +7,10 @@ src: url(Bite_Bullet.ttf);
 font-family: text;
 src:url(Courier_Prime.ttf);
 }
+@font-face{
+font-family: main;
+src: url(LeagueSpartan-Bold.otf);  
+}
 
 html{
     background: lightyellow;
@@ -28,7 +32,7 @@ h2, h3{
 size: 20pt;
 color: #000000;
     padding: 0px 24px;  
-    margin-left: 12.5%;
+    margin-left: 10.5%;
         font-family: title;
 
 
@@ -39,6 +43,13 @@ h3{
     
     
 }
+
+.homepage{
+    font-family: main;
+    
+}
+
+
 
 ul{
     
@@ -54,9 +65,9 @@ li{
     text-align: center;
  padding: 20px 24px;  
     text-decoration: none; 
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: title;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: main;
     font-size: 20pt;
 }
 
