@@ -1,0 +1,83 @@
+html{
+    background: #d1e6d1;
+}
+
+.header{
+    width: 37.8%;
+        display: inline-block;
+
+}
+
+.header1{
+    width: 37.8%;
+        display: inline-block;
+
+}
+
+h1{ 
+display: inline-block;
+font-size: 5vw;
+    padding: .1em;
+}
+
+.me{
+     width: 40vw;
+    margin: 10px 29% 10px 29%;
+    
+    content: url(images/me.jpg);
+
+}
+
+
+
+.me:hover{
+    content: url(images/mecolor.jpg);
+
+}
+
+
+.bio-text{
+    font-size: 27px;
+    margin: 40px 27% 0px 27%;
+    line-height: 1.2;
+    max-width: 700px;
+    text-align: justify;
+    background-color: white;
+    padding: .5em;
+}
+
+
+a{
+    color: black;
+    text-decoration: line-through;
+            text-decoration-color: #8fb590;
+
+}
+
+a:hover{
+    text-decoration: underline;
+        text-decoration-color: #8fb590;
+
+    
+}
+
+a:active{
+   color: aqua; 
+}
+
+@media only screen and (max-width:745px){
+    .header{
+        width: 36%;
+        
+    }
+    
+    .header1{
+        width: 36%;
+        
+    }
+    .bio-text{
+        font-size: 24px;
+        margin: 40px 5% 0px 5%;
+        
+    }
+}
