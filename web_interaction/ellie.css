@@ -1,23 +1,33 @@
+@font-face{
+    font-family: bethellen;
+    src: url("fonts/BethEllen.woff"); 
+    
+}
+
 html{
     background: #d1e6d1;
 }
 
 .header{
-    width: 37.8%;
+    width: 47%;
         display: inline-block;
+    margin-left: 1em;
 
 }
 
 .header1{
-    width: 37.8%;
-        display: inline-block;
+    width: 47%;       
+    display: inline-block;
+    margin-left: 1em;
 
 }
 
 h1{ 
-display: inline-block;
-font-size: 5vw;
+    font-family: bethellen;
+    display: inline-block;
+    font-size: 7.5vw;
     padding: .1em;
+    margin: 0px 32vw 0px 32vw;
 }
 
 .me{
@@ -65,19 +75,34 @@ a:active{
    color: aqua; 
 }
 
+footer{
+    background: #d1e6d1;
+    padding: 3em;
+position: relative; 
+    text-align: center;
+    font-size: 20px;
+    font-family: bethellen;
+    
+}
+
 @media only screen and (max-width:745px){
     .header{
-        width: 36%;
+        width: 45%;
         
     }
     
     .header1{
-        width: 36%;
+        width: 45%;
         
     }
     .bio-text{
         font-size: 28px;
         margin: 40px 0 0px 0;
+        
+    }
+    
+    h1{
+        font-size: 7vw;
         
     }
 }
