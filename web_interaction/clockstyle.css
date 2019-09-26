@@ -1,0 +1,42 @@
+html{
+    
+    background: #ceedd7;
+}
+
+.circle{
+       z-index: 5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+/*    background-color: black;*/
+    
+}
+
+.circle2{
+       z-index: 5;
+     width: 200px;
+    height: 150px;
+    border-radius: 50%;
+/*    background-color: black;*/
+    
+    
+}
+
+.circle3{
+       z-index: 5;
+      width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#clock{
+    z-index: -5;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 33%;
+    font-family: helvetica;
+    font-size: 15vw;
+    color: beige;
+    
+}
+
