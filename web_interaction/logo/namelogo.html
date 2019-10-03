@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet"
+   type = "text/css"
+   href = "logo.css" /> 
+    <title>Business Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    </head>
+    
+    <body>
+
+        
+              
+        <h1 id="name"> Ellie Marie Plass </h1>
+
+        
+        <div id="box">
+
+         <select id="myFonts" onchange="newFont()">  
+             
+            <option value="Arial Balck">Arial Black</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="courier, monospace">Courier</option>
+             <option value="Palatino">Palatino</option>
+        </select>
+            
+            <select id="myBackground" onchange="newBackground()">
+            
+            <option value="cartoon-city.jpg">Brick Wall</option>
+                
+            <option value="cartoonforest.jpg">Forest</option>
+                
+            <option value="ocean.jpeg">Ocean</option>
+                
+            <option value="farm.jpg"> Farm </option>
+            
+            
+            
+            </select>
+        
+            <br>
+            <br>
+        
+     <input type="checkbox" id="boldCheck" onclick="boldFunction()"> Bold <br>
+        
+    <input type="checkbox" id="italicCheck" onclick="italicFunction()"> Italic <br>
+
+            <br>
+            <br>
+
+          <input id="size" type= "range" value="16" min="20" max="100"step="1" oninput= "sizeFunction()">
+            <br>
+            <br>
+            
+<!--              <input id="backColor" type= "range" value="16" min="0" max="255"step="1" oninput= "backFunction()">-->
+            
+            
+<div id="colors">
+<input type="checkbox" id="redCheck" onclick="redFunction()"> Red <br>
+        <input type="checkbox" id="greenCheck" onclick="greenFunction()"> Green <br>
+        
+        <input type="checkbox" id="yellowCheck" onclick="yellowFunction()"> Yellow <br>
+        
+        <input type="checkbox" id="blueCheck" onclick="blueFunction()"> Blue <br>
+        </div>
+            </div>
+    
+    </body>
+    
+      <script src="jquery.js"></script>
+      <script src="namelogo.js"></script>   
+</html>
