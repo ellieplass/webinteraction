@@ -1,0 +1,55 @@
+@font-face{
+    font-family: cursive;
+    src: url("fonts/AlexBrush-Regular.ttf");
+    
+}
+
+html{
+    
+    background: #f7f5e9;
+}
+
+.main{
+max-width: 300px;
+margin: auto;
+text-align: center;
+margin-top: 25vh;
+}
+
+p{
+    
+    font-family: cursive;
+    font-size: 20pt;
+}
+
+button{
+    border-radius: 50%;
+    background-color: #cc6c6c;
+    padding: 2em;
+    font-family: cursive;
+    
+}
+
+/*with help fromhttps: //css-tricks.com/snippets/css/typewriter-effect/*/
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .07em solid #cc6c6c; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(20, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #cc6c6c; }
+}

@@ -1,0 +1,147 @@
+hr{
+bottom: 60%;
+top: 40%;
+border: 10px solid black;
+    width: 100%;
+    position: fixed;
+
+}
+
+.top{
+border: 2pt solid black;
+    width: 95vw;
+    height: 45vh;
+    left: 20vw;
+    right: 20vw;
+    bottom: 10vh;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.bottom{
+border: 2pt solid black;
+    width: 95vw;
+    height: 65vh;
+    left: 20vw;
+    right: 20vw;
+overflow-y: auto;  
+        border-radius: 5%;
+
+}
+
+p{
+    margin: .7em;
+    
+    
+}
+
+.oval{
+    width: 30px;
+    height: 200px;
+    border-radius: 40%;
+    background-color: black;
+    position: absolute;
+    left: 90vw;
+    top: 5vh;
+    
+}
+
+.oval2{
+    width: 30px;
+    height: 200px;
+    border-radius: 40%;
+    background-color: black;
+    position: relative;
+    left: 90vw;
+    top: -55vh;
+    
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    background-color: darkred;
+     position: absolute;
+    left: 40vw;
+    bottom: 40vh;
+    
+}
+
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    background-color: skyblue;
+     position: absolute;
+    left: 30vw;
+    bottom: 20vh;
+    
+}
+
+.circle3{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    background-color: forestgreen;
+     position: absolute;
+    left: 50vw;
+    bottom: 80vh;
+    
+}
+.circle4{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    background-color: lightgoldenrodyellow;
+     position: absolute;
+    left: 30vw;
+    bottom: 70vh;
+    
+}
+
+.circle5{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    background-color: mediumpurple;
+     position: absolute;
+    left: 60vw;
+    bottom: 15vh;
+    
+}
+
+.circle:hover{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.circle2:hover{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.circle3:hover{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.circle4:hover{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.circle5:hover{
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    
+}
