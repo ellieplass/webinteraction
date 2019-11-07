@@ -1,147 +1,380 @@
-hr{
-bottom: 60%;
-top: 40%;
-border: 10px solid black;
-    width: 100%;
-    position: fixed;
+html{
+    
+    background-color: #faf5e6;
+}
 
+.back{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #faf5e6;
+    left: 80%;
+    bottom: 70%;
+    z-index:100;
+    border: .2em solid grey;
 }
 
 .top{
-border: 2pt solid black;
-    width: 95vw;
-    height: 45vh;
-    left: 20vw;
-    right: 20vw;
+    position: absolute;
+    border: 6pt inset;
+    width: 55vw;
+    height: 35vh;
     bottom: 10vh;
+    left: 30vw;
+    right: 28vw;
+    top: 5vh;
     text-align: center;
-    border-radius: 5%;
+    max-width: 400px;
+    z-index: 50;   
+    background-color: white;
+
 }
 
 .bottom{
-border: 2pt solid black;
-    width: 95vw;
-    height: 65vh;
-    left: 20vw;
-    right: 20vw;
-overflow-y: auto;  
-        border-radius: 5%;
+    position: absolute;
+    border: 6pt outset ;
+    width: 55vw;
+    height: 55vh;
+     left: 30vw;
+    right: 28vw;
+    top: 43vh;
+    text-align: center;
+    max-width: 400px;
+    z-index: 50;
+    background-color: white;
+
+}
+
+.topIn{
+    position: absolute;
+    border: 6pt inset;
+    border-color: lightgray;
+    width: 55vw;
+    height: 35vh;
+    left: 30vw;
+    right: 28vw;
+    top: 5vh;
+    bottom: 50vh;
+    text-align: center;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    z-index: -10;
+}
+
+.bottomIn{
+    position: absolute;
+    border: 6pt outset ;
+    border-color: lightgray;
+    width: 55vw;
+    height: 55vh;
+    left: 30vw;
+    right: 28vw;
+    top: 43vh;
+    text-align: center;
+    overflow-y: auto;  
+    max-width: 400px;
+    background-color: white;
+    z-index: -10;
 
 }
 
 p{
-    margin: .7em;
-    
+    margin: .7em; 
+    color: black;
+    text-align: justify;
+font-family: 'Righteous', cursive;
+}
+h1, h2, h3{
+    color: black;
+font-family: 'Righteous', cursive;
+   text-align: left;
+    margin-left: 5%;
     
 }
 
 .oval{
-    width: 30px;
-    height: 200px;
-    border-radius: 40%;
-    background-color: black;
+    width: 10px;
+    height: 100px;
+    background-color: lightgray;
     position: absolute;
-    left: 90vw;
-    top: 5vh;
-    
+    right: 5%;
+    top: 25%;
+    z-index: 100;
+    border: .25em outset;
+    border-color: darkgrey;
 }
 
 .oval2{
-    width: 30px;
-    height: 200px;
-    border-radius: 40%;
-    background-color: black;
-    position: relative;
-    left: 90vw;
-    top: -55vh;
+ width: 10px;
+    height: 150px;
+    background-color: lightgray;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    z-index: 100;
+        border: .25em outset;
+
+        border-color: darkgrey;
+
+
     
 }
 
 .circle{
-    width: 30px;
-    height: 30px;
+    width: 63px;
+    height: 63px;
     border-radius:  50%;
     background-color: darkred;
-     position: absolute;
-    left: 40vw;
-    bottom: 40vh;
+    left: 40%;
+    bottom: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.nyt2{
+    width: 63px;
+    height: 63px;
     
 }
 
-.circle2{
-    width: 30px;
-    height: 30px;
-    border-radius:  50%;
-    background-color: skyblue;
-     position: absolute;
-    left: 30vw;
-    bottom: 20vh;
-    
-}
-
-.circle3{
-    width: 30px;
-    height: 30px;
-    border-radius:  50%;
-    background-color: forestgreen;
-     position: absolute;
-    left: 50vw;
-    bottom: 80vh;
-    
-}
-.circle4{
-    width: 30px;
-    height: 30px;
-    border-radius:  50%;
-    background-color: lightgoldenrodyellow;
-     position: absolute;
-    left: 30vw;
-    bottom: 70vh;
-    
-}
-
-.circle5{
-    width: 30px;
-    height: 30px;
-    border-radius:  50%;
-    background-color: mediumpurple;
-     position: absolute;
-    left: 60vw;
-    bottom: 15vh;
+.nyt2:hover:{
+     width: 55px;
+    height: 55px;
     
 }
 
 .circle:hover{
-    background-color: azure;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     
 }
-
 .circle2:hover{
-    background-color: azure;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     
 }
-
 .circle3:hover{
-    background-color: azure;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     
 }
-
 .circle4:hover{
-    background-color: azure;
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
+    
+}
+.circle5:hover{
+    width: 55px;
+    height: 55px;
+    
+}
+.circle6:hover{
+    width: 55px;
+    height: 55px;
+    
+}
+.circle7:hover{
+    width: 55px;
+    height: 55px;
+    
+}
+.circle8:hover{
+    width: 55px;
+    height: 55px;
+    
+}
+.circle9:hover{
+    width: 55px;
+    height: 55px;
+    
+}
+.circle10:hover{
+    width: 55px;
+    height: 55px;
     
 }
 
-.circle5:hover{
-    background-color: azure;
-    width: 50px;
-    height: 50px;
+
+.circle2{
+    width: 40px;
+    height: 40px;
+    border-radius:  50%;
+    background-color: skyblue;
+    left: 20%;
+    bottom: 20%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.circle3{
+    width: 70px;
+    height: 70px;
+    border-radius:  50%;
+    background-color: #ca9c82;
+    left: 50%;
+    bottom: 30%;
+    z-index: 100;
+    position: absolute;
+}
+
+.tny1{
+    width: 70px;
+    height: 70px;
     
 }
+
+.tny1:hover{
+     width: 55px;
+    height: 55px;
+    
+}
+.circle4{
+    width: 60px;
+    height: 60px;
+    border-radius:  50%;
+    background-color: #7da3ac;
+    left: 15%;
+    bottom: 50%;
+    z-index: 100;
+    position: absolute;
+
+    
+}
+
+.infat1{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.infat1:hover{
+     width: 55px;
+    height: 55px;
+    
+}
+
+.circle5{
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    background-color: #cba49d;
+    left: 65%;
+    bottom: 15%;
+    z-index: 100;
+    position: absolute;
+
+    
+}
+
+.circle6{
+    width: 45px;
+    height: 45px;
+    border-radius:  50%;
+    background-color: #224241;
+    left: 50%;
+    bottom: 25%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.eater1{
+    width: 45px;
+    height: 45px;
+    
+}
+
+.eater1:hover{
+     width: 55px;
+    height: 55px;
+
+    
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+img:hover{
+     width: 55px;
+    height: 55px;
+    
+}
+
+.nyt1{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.nyt1:hover{
+     width: 55px;
+    height: 55px;
+}
+
+
+.circle7{
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    background-color: #e5c789;
+    left: 70%;
+    bottom: 70%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.circle8{
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    background-color: #872729;
+    left: 10%;
+    bottom: 77%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.circle9{
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    background-color: #ebb656;
+    left: 70%;
+    bottom: 50%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.circle10{
+    width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    background-color: #2c4063;
+    left: 50%;
+    bottom: 80%;
+    z-index: 100;
+    position: absolute;
+
+}
+
+.fridgedoor{
+  
+     transform-origin: left;
+     transition: all 0.75s ease-in-out;
+}
+
+.doorOpen{
+      transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+
